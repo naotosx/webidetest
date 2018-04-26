@@ -6,6 +6,7 @@
 				<content>
 					<Text text="Prueba"/>
 					<Button text="Ok"/>
+
 					<Panel>
 						<Input width="20%" placeholder="Ingrese usuario"/>
 						<Button text="Ok" press="onOk" type="Reject"/>
@@ -20,6 +21,8 @@
 							</NavigationListItem>
 						</NavigationList>
 					</Panel>
+=======
+>>>>>>> f19a64b Agregando panel con input y boton
 				</content>
 			</Page>
 		</pages>
