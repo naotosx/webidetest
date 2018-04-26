@@ -7,8 +7,8 @@
 					<Text text="Prueba"/>
 					<Button text="Ok"/>
 					<Panel>
-						<Input placeholder="Ingrese usuario"/>
-						<Button text="Ok"/>
+						<Input width="20%" placeholder="Ingrese usuario"/>
+						<Button text="Ok" press="onOk" type="Reject"/>
 					</Panel>
 				</content>
 			</Page>
