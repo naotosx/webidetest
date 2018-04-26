@@ -6,6 +6,10 @@
 				<content>
 					<Text text="Prueba"/>
 					<Button text="Ok"/>
+					<Panel>
+						<Input placeholder="Ingrese usuario"/>
+						<Button text="Ok"/>
+					</Panel>
 				</content>
 			</Page>
 		</pages>
