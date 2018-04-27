@@ -7,7 +7,7 @@
 					<Text text="Prueba"/>
 					<Button text="Ok"/>
 					<Panel>
-						<Input width="20%" placeholder="Ingrese usuario"/>
+						<Input width="30%" placeholder="Ingrese usuario"/>
 						<Button text="Ok" press="onOk" type="Reject"/>
 						<List headerText="Products">
 							<items>
