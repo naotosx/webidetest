@@ -2,7 +2,7 @@
 	displayBlock="true" xmlns="sap.m">
 	<App id="idAppControl">
 		<pages>
-			<Page title="{i18n>title}">
+			<Page title="Innovabiz/Kaufmann">
 				<content>
 					<Text text="Prueba"/>
 					<Button text="Ok"/>
