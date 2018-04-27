@@ -5,7 +5,7 @@
 			<Page title="{i18n>title}">
 				<content>
 					<Text text="My page of quotes"/>
-					<Button text="Ok"/>
+					<Button text="Ok Ok"/>
 					<Panel>
 						<Input width="20%" placeholder="Ingrese usuario"/>
 						<Button text="Ok" press="onOk" type="Reject"/>
@@ -20,7 +20,6 @@
 							</NavigationListItem>
 						</NavigationList>
 					</Panel>
-					======= >>>>>>> f19a64b Agregando panel con input y boton
 				</content>
 			</Page>
 		</pages>
