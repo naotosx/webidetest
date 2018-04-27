@@ -20,6 +20,7 @@
 								<StandardListItem title="Producto 5" counter="87"/>
 							</items>
 						</List>
+						<Label text="Hola"/>
 					</Panel>
 				</content>
 			</Page>
