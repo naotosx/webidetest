@@ -6,23 +6,19 @@
 				<content>
 					<Text text="Prueba"/>
 					<Button text="Ok"/>
-
 					<Panel>
 						<Input width="20%" placeholder="Ingrese usuario"/>
 						<Button text="Ok" press="onOk" type="Reject"/>
-						<NavigationList id="navigationList" width="320px" selectedItem="subItemThree">
-							<NavigationListItem text="Item 1" icon="sap-icon://employee">
-								<NavigationListItem text="Sub Item 1"/>
-								<NavigationListItem text="Sub Item 2"/>
-								<NavigationListItem text="Sub Item 3" id="subItemThree"/>
-								<NavigationListItem text="Sub Item 4"/>
-								<NavigationListItem text="Invisible Sub Item 5" visible="false"/>
-								<NavigationListItem text="Invisible Sub Item 6" visible="false"/>
-							</NavigationListItem>
-						</NavigationList>
+						<List headerText="Products">
+							<items>
+								<StandardListItem title="Producto 1" counter="5"/>
+								<StandardListItem title="Producto 2" counter="55"/>
+								<StandardListItem title="Producto 3" counter="235"/>
+								<StandardListItem title="Producto 4" counter="45"/>
+								<StandardListItem title="Producto 5" counter="87"/>
+							</items>
+						</List>
 					</Panel>
-=======
->>>>>>> f19a64b Agregando panel con input y boton
 				</content>
 			</Page>
 		</pages>
