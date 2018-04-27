@@ -4,8 +4,13 @@
 		<pages>
 			<Page title="{i18n>title}">
 				<content>
+<<<<<<< HEAD
 					<Text text="Prueba"/>
 					<Button text="Ok"/>
+=======
+					<Text text="My page of quotes"/>
+					<Button text="Ok Ok"/>
+>>>>>>> master
 					<Panel>
 						<Input width="30%" placeholder="Ingrese usuario"/>
 						<Button text="Ok" press="onOk" type="Reject"/>
