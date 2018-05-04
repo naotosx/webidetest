@@ -1,39 +1,25 @@
 <mvc:View controllerName="git.test.WebIDETestGit.controller.Main" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
-	displayBlock="true" xmlns:micro="sap.suite.ui.microchart" xmlns="sap.m" xmlns:l="sap.ui.layout" xmlns:c="sap.ui.core.mvc"
-	xmlns:n="sap.suite.ui.commons.networkgraph">
+	displayBlock="true" xmlns="sap.m">
 	<App id="idAppControl">
 		<pages>
-			<Page title="Innovabiz/Kaufmann">
+			<Page title="{i18n>title}">
 				<content>
-					<Text text="Prueba"/>
+					<Text text="Mix Reset"/>
 					<Button text="Ok"/>
-					<Text text="My page of quotes"/>
-					<Button text="Ok Ok"/>
 					<Panel>
-						<Input width="30%" placeholder="Ingrese usuario"/>
+						<Input width="20%" placeholder="Ingrese usuario"/>
 						<Button text="Ok" press="onOk" type="Reject"/>
-						<List headerText="Products">
-							<items>
-								<StandardListItem title="Producto 1" counter="5"/>
-								<StandardListItem title="Producto 2" counter="55"/>
-								<StandardListItem title="Producto 3" counter="235"/>
-								<StandardListItem title="Producto 4" counter="45"/>
-								<StandardListItem title="Producto 5" counter="87"/>
-							</items>
-						</List>
-						<Label text="Hola"/>
+						<NavigationList id="navigationList" width="320px" selectedItem="subItemThree">
+							<NavigationListItem text="Item 1" icon="sap-icon://employee">
+								<NavigationListItem text="Sub Item 1"/>
+								<NavigationListItem text="Sub Item 2"/>
+								<NavigationListItem text="Sub Item 3" id="subItemThree"/>
+								<NavigationListItem text="Sub Item 4"/>
+								<NavigationListItem text="Invisible Sub Item 5" visible="false"/>
+								<NavigationListItem text="Invisible Sub Item 6" visible="false"/>
+							</NavigationListItem>
+						</NavigationList>
 					</Panel>
-					<micro:BulletMicroChart size="XS" scale="M" targetValue="100" forecastValue="110" class="sapUiSmallMargin" press="press">
-						<micro:actual>
-							<micro:BulletMicroChartData value="120" color="Good"/>
-						</micro:actual>
-						<micro:thresholds>
-							<micro:BulletMicroChartData value="0" color="Error"/>
-							<micro:BulletMicroChartData value="50" color="Critical"/>
-							<micro:BulletMicroChartData value="150" color="Critical"/>
-							<micro:BulletMicroChartData value="200" color="Error"/>
-						</micro:thresholds>
-					</micro:BulletMicroChart>
 				</content>
 			</Page>
 		</pages>
